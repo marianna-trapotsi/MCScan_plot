@@ -7,4 +7,4 @@ https://github.com/tanghaibao/jcvi
 
 https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)#pairwise-synteny-search
 
-Documentation and instructions are on ReadtheDocs_.
+
