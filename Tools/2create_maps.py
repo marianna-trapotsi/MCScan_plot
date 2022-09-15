@@ -95,7 +95,7 @@ if __name__=='__main__':
     w_param=options.dir_write+options.species+'.transcripts.fa'
     x_param=options.dir_write+options.species+'_initial.cds.fa'
     y_param=options.dir_write+options.species+'.protein.fa'
-    os.system('/Users/trapot01/software/gffread/gffread -w ' + w_param+' -x ' + x_param + ' -y ' + y_param + ' -g ' + options.dir_read+'genome.fa '+ options.dir_write+'transcripts_onlycds.gtf -C')
+    os.system('gffread -w ' + w_param+' -x ' + x_param + ' -y ' + y_param + ' -g ' + options.dir_read+'genome.fa '+ options.dir_write+'transcripts_onlycds.gtf -C')
 
     
     mappings, log_error_ids=transcript_id_to_gene_id(cds_ids)
