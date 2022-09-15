@@ -35,7 +35,10 @@ MCSCan_plot/
 #### if you do not have one, use the gene_synteny.yml to create one:
 ```
 conda env create -f gene_synteny.yml
-
+pip install pandas
+pip install tqdm
+pip install Bio
+pip install jcvi
 ```
 ### 4. Activate your conda environment
 ```
