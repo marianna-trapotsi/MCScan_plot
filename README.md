@@ -43,7 +43,7 @@ conda activate gene_synteny
 ```
 
 ### 5. Prepare input files
-Prepare a files_species with a list of species that will compared to the reference species. See the 'file_species.txt' for reference. e.g. select Dsim_GCF_016746395 and Drho_GCF_018152115.
+Prepare a files_species with a list of species that will compared to the reference species. See the 'Tools/file_species.txt' for reference. e.g. select Dsim_GCF_016746395 and Drho_GCF_018152115.
 ```
 cd Tools
 nano file_species.txt
