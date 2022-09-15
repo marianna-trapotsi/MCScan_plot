@@ -33,16 +33,26 @@ This command will generate the syntenic depths in a histogram
 ```
 python -m jcvi.compara.synteny depth --histogram Dyak_GCF_016746365.Dsim_GCF_016746395.anchors
 ```
-### Step 11
+### Step 11: Create seqids file
+This file should include the name of chromosomes for each file
+```
+python ../../Tools/create_seqids.py --species Dsim_GCF_016746395 --ref_species Dyak_GCF_016746365 --ref_directory ../../Ref_Species/Dyak_GCF_016746365/ --directory ../../Species/Dsim_GCF_016746395/
+```
+For example, 
+```
+chr2L, chr2R, chr3L, chr3R, chr4, chrX
+chr2L, chr2R, chr3L, chr3R, chr4, chrX
+```
+
+### Step 12: Prepare data for creating karyotype plot
+```
+python -m jcvi.compara.synteny screen --minspan=30 --simple Dyak_GCF_016746365.Dsim_GCF_016746395.anchors Dyak_GCF_016746365.Dsim_GCF_016746395.anchors.new
+```
 
 
 
 
-
-
-
-
-
+mkdir plots
 
 
 
