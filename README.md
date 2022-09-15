@@ -1,5 +1,5 @@
 # MCScan_plot
-This repository provides a set of tools (.py and .sh scripts) in order to use MCScan with Drosophila Species.
+This repository provides a set of tools (.py and .sh scripts) in order to automate the use of MCScan with Drosophila Species.
 # If you are running MCScan_plot tools for first time follow the steps below, if not proceed to Step 4
 
 ### 1. MCScan tool should first be installed and also any additional packages should also be installed. Instructions can be found here for jcvi and LASTAL:
@@ -69,7 +69,8 @@ MCScan_plot/Species/Dsim_GCF_016746395/plots
 #### Types of Plots
 1. Dot Plot
 2. Histogram
-3. Karyotype
-4. Karyptype
+3. Karyotype with all chromosomes/fragments
+4. Karyptype with only the chromosomes/fragments which contain genes in both species and also with annotated the 20 up/downstream genes for species with flam
 
-
+### If you do not want to run the automated version see the Detailed_Instructions.md
+### For block plots (e.g. flamlike1) see the Block_Intstructions.md
