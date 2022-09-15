@@ -1,5 +1,5 @@
 # Detailed Instructions for MCScan_plot
-Use this page if you want to run MCScan manually
+Use this page if you want to run MCScan step by step
 
 ### Step 1 - Follow Steps 1-6 from README.md
 Following the steps above, you should have created the input files for the MCScan_plot, i.e.:
