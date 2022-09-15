@@ -5,6 +5,7 @@ Use this page if you want to run MCScan step by step
 Following the steps above, you should have created the input files for the MCScan_plot, i.e.:
 1. a .bed file
 2. a .cds file
+
 for each of the 2 species 
 ### Step 7: Go to the Species directory that you are going to compare with the Reference species. In this case, the Dyak_GCF_016746365 will be the reference species and the Dsim_GCF_016746395 the species that will be compared to the reference.
 In that folder then copy the .bed and .cds files from the reference species, because MCSCan tool requires the files to be in the same folder.
