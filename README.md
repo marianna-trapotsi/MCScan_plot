@@ -23,12 +23,12 @@ mkdir Species Ref_Species
 MCSCan_plot/
 ├── Ref_Species
 ├── Species
-├── Tools
+└── Tools
    ├── .py scripts
    ├── .sh scripts
    ├── file_species.txt
+   ├── gene_synteny.yml
    └── flam coordinates (.txt file)
-└── gene_synteny.yml
 
 ```
 ### 3. Before running any scripts you need to activate your conda environment
