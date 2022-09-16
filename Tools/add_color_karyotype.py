@@ -16,10 +16,7 @@ parser.add_option('--n_genes', dest='n_genes', default=20, type=int, help='Numbe
 
 # Read Flam Coordinates
 # Read Flam Coordinates
-try:
-    coordinates=pd.read_excel('../../Tools/220901_flam_coordinates.xlsx')
-except:
-    coordinates=pd.read_excel('../Tools/220901_flam_coordinates.xlsx')
+coordinates=pd.read_excel('../../Tools/220901_flam_coordinates.xlsx')
 coordinates=coordinates.dropna(subset=['Species']).reset_index(drop=True)
 coordinates=coordinates[coordinates['Unnamed: 11'].isin(['flam','flam','flam’'])].reset_index(drop=True)
 coordinates['Strand']=np.where(coordinates['Strand']=='+', 'plus', 'minus')
