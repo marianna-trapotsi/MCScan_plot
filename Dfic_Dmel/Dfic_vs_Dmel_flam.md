@@ -5,7 +5,6 @@ These are the instructions to generate Figure x.y
 ```
 cd MCScan_plot
 mkdir Dfic_Dmel
-cd Dfic_Dmel
 ```
 ### Step 1: Prepare .bed and .cds files
 ```
