@@ -25,7 +25,12 @@ Define the reference species, and the location of the flamlike cluster (chromoso
 bash run_block_comparison.sh Dfic_GCF_018152265 chr x y
 ```
 
-#### Delete last line in blocks because the last gene is mapping to a gene very far and therefore the plot is loosing the focus in the flamlike region
+#### Delete last line in blocks because the last gene is mapping to a gene very far and therefore the plot is loosing the focus in the flamlike region. This should be the following:
+
+```
+LOC108093425    FBgn0026255
+```
+
 ```
 python -m jcvi.graphics.synteny blocks Dfic_GCF_018152265_Dmel_dm6.bed  blocks.layout --glyphcolor=orthogroup --glyphstyle=arrow 
 
