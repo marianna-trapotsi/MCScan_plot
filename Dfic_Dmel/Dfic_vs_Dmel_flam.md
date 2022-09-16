@@ -1,7 +1,7 @@
 # Dfic vs Dmel - Flam-like 1
 These are the instructions to generate Figure x.y 
 
-### Step 1 Create a folder to run analysis with name 'Dfic_Dmel' 
+### Step 1 Create a folder to run analysis with name 'Dfic_Dmel'  and add Dfic_GCF_018152265 in the file_species.txt
 ```
 cd MCScan_plot
 mkdir Dfic_Dmel
