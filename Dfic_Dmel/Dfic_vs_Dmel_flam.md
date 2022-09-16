@@ -22,7 +22,7 @@ cp ../Tools/run_block_comparison .
 ```
 Define the reference species, and the location of the flamlike cluster (chromosome, start and end)
 ```
-bash run_block_comparison.sh Dfic_GCF_018152265 chrUn_025064569 438589 994838
+bash run_block_comparison.sh Dfic_GCF_018152265 chr x y
 ```
 
 
