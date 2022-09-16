@@ -18,7 +18,7 @@ cp ../Species/Dfic_GCF_018152265/Dfic_GCF_018152265.bed .
 cp ../Species/Dfic_GCF_018152265/Dfic_GCF_018152265.cds .
 cp ../Ref_Species/Dmel_dm6/Dmel_dm6.bed .
 cp ../Ref_Species/Dmel_dm6/Dmel_dm6.cds .
-cp ../Tools/run_block_comparison .
+cp ../Tools/run_block_comparison.sh .
 ```
 Define the reference species, and the location of the flamlike cluster (chromosome, start and end)
 ```
