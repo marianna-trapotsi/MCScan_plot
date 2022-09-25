@@ -1,6 +1,6 @@
 # Instructions for flam-like 2 synteny analysis between Dpse and Dper and Dpse and Dmir
 
-### Step 1 Create a folder to run the first comparison with name 'Dpse_Dper'  and add Dper_GCF_003286085.bed and Dmir_GCF_003369915 in the file_species.txt
+### Step 1 Create a folder to run the first comparison with name 'Dpse_Dper'  and add Dper_GCF_003286085 and Dmir_GCF_003369915 in the file_species.txt
 ```
 cd MCScan_plot
 mkdir Dpse_Dper
