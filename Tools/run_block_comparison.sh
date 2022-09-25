@@ -8,6 +8,7 @@ for file in *.bed;
             species_ref=$1
             echo $species
             echo $species_ref
+            python ../Tools/add_flam_flamlike_bed.py --directory ../$5/
             python -m jcvi.compara.catalog ortholog $species_ref $species --no_strip_names
             python -m jcvi.graphics.dotplot $species_ref.$species.anchors
             python -m jcvi.compara.synteny depth --histogram $species_ref.$species.anchors
@@ -33,5 +34,6 @@ for file in *.bed;
             
         fi
     done
+
 
 
