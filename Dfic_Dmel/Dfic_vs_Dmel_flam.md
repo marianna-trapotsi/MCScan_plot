@@ -19,9 +19,9 @@ cp ../Ref_Species/Dmel_dm6/Dmel_dm6.bed .
 cp ../Ref_Species/Dmel_dm6/Dmel_dm6.cds .
 cp ../Tools/run_block_comparison.sh .
 ```
-Run the following command and define the reference species, and the location of the flamlike cluster (chromosome, start and end), e.g.:
+Run the following command and define the reference species,  the location of the flamlike cluster (chromosome, start and end) and the name of the folder, e.g.:
 ```
-bash run_block_comparison.sh Dfic_GCF_018152265 chr x y
+bash run_block_comparison.sh Dfic_GCF_018152265 chr x y Dfic_Dmel
 ```
 
 #### Delete last line in blocks file because the last gene is mapping to a gene very far and therefore the plot is loosing the focus in the flamlike region. This should be the following:
@@ -61,5 +61,5 @@ cp ../Tools/run_block_comparison.sh .
 ```
 Run the following command and define the reference species, and the location of the flamlike cluster (chromosome, start and end), e.g.:
 ```
-bash run_block_comparison.sh Dfic_GCF_018152265 chr x y
+bash run_block_comparison.sh Dfic_GCF_018152265 chr x y Dfic_Dyak
 
