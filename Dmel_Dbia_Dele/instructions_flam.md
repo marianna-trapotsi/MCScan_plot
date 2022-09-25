@@ -61,12 +61,14 @@ python -m jcvi.formats.base join blocks_Dmel_Dbia blocks_Dmel_Dele --noheader | 
 ```
 
 ### Step 4: Copy bed files, combine them and create plot
+Note: you need the blocks2.layout file, which is provided in this github folder.
 ```
 cp ../Dmel_Dbia/Dmel_dm6.bed .
 cp ../Dmel_Dele/Dele_GCF_018152505.bed .
 cp ../Dmel_Dbia/Dbia_GCF_018148935.bed .
 
 cat Dmel_dm6.bed Dbia_GCF_018148935.bed Dele_GCF_018152505.bed > Dmel_Dbia_Dele.bed
-python -m jcvi.graphics.synteny blocks2 Dmel_Dbia_Dele.bed blocks2.layout
+python -m jcvi.graphics.synteny blocks2 Dmel_Dbia_Dele.bed blocks2.layout --glyphcolor=orthogroup --glyphstyle=arrow
+mv blocks2.pdf Dmel_Dbia_Dele_flam.pdf
 ```
 
