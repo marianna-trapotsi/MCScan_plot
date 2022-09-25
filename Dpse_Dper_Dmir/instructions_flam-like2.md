@@ -55,7 +55,7 @@ python fix_Dpse_bed_file.py
 
 Run the following command and define the reference species, and the location of the flamlike cluster (chromosome, start and end), e.g.:
 ```
-bash run_block_comparison.sh Dmel_dm6 chr x y Dpse_Dmir
+bash run_block_comparison.sh Dpse_GCF_009870125 chr x y Dpse_Dmir
 ```
 
 ### Step 4: Combine results in one plot
