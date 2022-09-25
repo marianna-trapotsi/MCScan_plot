@@ -19,6 +19,14 @@ cp ../Ref_Species/Dpse_GCF_009870125/Dpse_GCF_009870125.bed .
 cp ../Ref_Species/Dpse_GCF_009870125/Dpse_GCF_009870125.cds .
 cp ../Tools/run_block_comparison.sh .
 ```
+#### Note: In Dpse bed file, the Gene HCS66_mgp01 on chrM has inverted start and end:
+start: 15693, end: 262
+
+To fix that run:
+```
+python fix_Dpse_bed_file.py
+```
+
 Run the following command and define the reference species, and the location of the flamlike cluster (chromosome, start and end), e.g.:
 ```
 bash run_block_comparison.sh Dpse_GCF_009870125 chr x y Dpse_Dper
@@ -39,6 +47,7 @@ cp ../Tools/run_block_comparison.sh .
 ```
 #### Note: In Dpse bed file, the Gene HCS66_mgp01 on chrM has inverted start and end:
 start: 15693, end: 262
+
 To fix that run:
 ```
 python fix_Dpse_bed_file.py
