@@ -73,7 +73,7 @@ MCScan_plot/Species/Dsim_GCF_016746395/plots
 1. Dot Plot
 2. Histogram
 3. Karyotype with all chromosomes/fragments
-4. Karyptype with only the chromosomes/fragments which contain genes in both species and also with annotated the 20 up/downstream genes for species with flam
+4. Karyotype with only the chromosomes/fragments which contain genes in both species and also with annotated the 20 up/downstream genes for species with flam
 
 ### If you do not want to run the automated version see the Detailed_Instructions.md
 ### For block plots (e.g. flamlike1) see the Block_Intstructions.md
