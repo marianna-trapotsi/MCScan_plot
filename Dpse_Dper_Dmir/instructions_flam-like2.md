@@ -85,7 +85,7 @@ cp ../Dpse_Dmir/Dmir_GCF_003369915.bed .
 
 cat Dpse_GCF_009870125.bed Dper_GCF_003286085.bed Dmir_GCF_003369915.bed > Dpse_Dper_Dmir.bed
 python fix_bed_for_block_plot.py
-python -m jcvi.graphics.synteny blocks2 Dpse_Dper_Dmir.bed blocks2.layout --glyphcolor=orthogroup --glyphstyle=arrow
+python -m jcvi.graphics.synteny blocks2 Dpse_Dper_Dmir_processed.bed blocks2.layout --glyphcolor=orthogroup --glyphstyle=arrow
 mv blocks2.pdf Dpse_Dper_Dmir_flamlike2.pdf
 ```
 
