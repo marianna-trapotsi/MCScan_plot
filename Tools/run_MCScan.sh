@@ -19,7 +19,7 @@ mkdir -p plots
 
 python ../../Tools/create_seqids.py --species $1 --ref_species $2 --ref_directory ../../Ref_Species/$2/ --directory ../../Species/$1/
 python -m jcvi.compara.synteny screen --minspan=30 --simple $2.$1.anchors $2.$1.anchors.new
-python ../../Tools/create_seqids_subset_chrom.py --species $1 --directory ../../Species/$1/ --ref_species $2 --gtf_directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python ../../Tools/create_seqids_subset_chrom.py --species $1 --directory ../../Species/$1/ --ref_species $2 --gtf_directory folder_with_saved_gtf_species_files/
 
 rm layout
 sed -e 's/species1/'$2'/g' -e 's/species2/'$1'/g' ../../Tools/layout_ref>> layout
