@@ -8,7 +8,7 @@ mkdir Dfic_Dmel
 ### Step 1: Prepare .bed and .cds files
 ```
 cd MCScan_plot/Tools
-python prepare_files.py --ref_species Dmel_dm6 --directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python prepare_files.py --ref_species Dmel_dm6 --directory folder_with_saved_gtf_species_files/
 ```
 
 ```
