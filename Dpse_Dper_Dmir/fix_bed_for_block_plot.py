@@ -74,4 +74,4 @@ combined_bed=combined_bed[combined_bed[0].isin(['chrX']+get_chrs)]
 keep_flamlike=combined_bed[combined_bed[3]=='flamlike']
 combined_bed=pd.concat([keep_flamlike,combined_bed[(combined_bed[0]=='chrX')&(combined_bed[1]>=min_value)&(combined_bed[2]<=max_value)],combined_bed[combined_bed[3].isin(get_block_lims)]])
 
-combined_bed.drop_duplicates(keep='first').to_csv('/mnt/scratchb/ghlab/marianna/MCScan_plot/Dpse_Dper_Dmir/Dpse_Dper_Dmir_processed.bed', sep='\t',index=None, header=None)
+combined_bed.drop_duplicates(keep='first').to_csv('MCScan_plot/Dpse_Dper_Dmir/Dpse_Dper_Dmir_processed.bed', sep='\t',index=None, header=None)
