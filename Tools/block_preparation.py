@@ -64,5 +64,5 @@ blocks_subset.to_csv('blocks', sep='\t',header=None,index=None)
 
 
 
-os.system("sed -e 's/species1/'"+options.species_ref+"'/g' -e 's/species2/'"+options.species+"'/g' -e 's/chromosome1/'"+options.chromosome_ref+"'/g' -e 's/chromosome2/'"+get_chr+"'/g'  /mnt/scratchb/ghlab/marianna/gene_synteny_analysis/Dpse_flamlike2_comparisons/blocks_layout_ref>> blocks.layout")
+os.system("sed -e 's/species1/'"+options.species_ref+"'/g' -e 's/species2/'"+options.species+"'/g' -e 's/chromosome1/'"+options.chromosome_ref+"'/g' -e 's/chromosome2/'"+get_chr+"'/g'  ../Tools/blocks_layout_ref>> blocks.layout")
 
