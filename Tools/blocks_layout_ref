@@ -1,0 +1,5 @@
+# x,   y, rotation,     ha,     va, color, ratio,            label
+0.5, 0.6,        0, center,    top,	 ,    .6,	species1 chromosome1
+0.5, 0.4,        0, center, bottom,	 ,    .6, species2 chromosome2
+# edges
+e, 0, 1
