@@ -9,7 +9,7 @@ cd Dpse_Dper/
 ### Step 2: Prepare .bed and .cds files
 ```
 cd MCScan_plot/Tools
-python prepare_files.py --ref_species Dpse_GCF_009870125 --directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python prepare_files.py --ref_species Dpse_GCF_009870125 --directory folder_with_saved_gtf_species_files/
 ```
 
 ```
