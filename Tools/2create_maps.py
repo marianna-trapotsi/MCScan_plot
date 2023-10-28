@@ -20,7 +20,6 @@ parser.add_option('--species', dest='species', default=None, type=str, help='Sel
 def introMessage():
     print('=======================================================================================================')
     print(' This script is converting the transcript ids into gene ids and overwrites fasta files with the gene id')
-    print(' For queries: ')
     print('=====================================================================================================\n')
     return()
 
@@ -86,8 +85,6 @@ if __name__=='__main__':
     introMessage()
     #Read GTF files and 1) create bed file and 2) prepare files for the rewrite_fasta function
     cds, genes, cds_ids, gene_ids=read_gtf(options.dir_read+'transcripts.gtf', options.dir_write+options.species+'.bed')
-    #Convert the genome.fa to species.cds.fa with gffread
-    #gffread -w dm6.transcripts.fa -x dm6.cds.fa -y dm6.protein.fa -g /mnt/scratchb/ghlab/sus/REFERENCE/dmelanogaster6/bwa/genome.fa /mnt/scratchb/ghlab/sus/REFERENCE/dmelanogaster6/ensembl_with_geneID.gff -C
     
     command_var1='''awk '$3=="CDS"' ''' 
     os.system(command_var1 +options.dir_read+"transcripts.gtf > "+options.dir_write+"transcripts_onlycds.gtf")
