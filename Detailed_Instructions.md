@@ -52,7 +52,7 @@ python -m jcvi.compara.synteny screen --minspan=30 --simple Dyak_GCF_016746365.D
 ### Step 13 (Optional): Remove any chromosomes/fragments that do not map between the two species
 This step can be used in cases of very fragmented assemblies, where a lot of fragments contain genes that do not map to the reference species' genome
 ```
-python ../../Tools/create_seqids_subset_chrom.py --species Dsim_GCF_016746395 --directory ../../Species/Dsim_GCF_016746395/ --ref_species Dyak_GCF_016746365 --gtf_directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python ../../Tools/create_seqids_subset_chrom.py --species Dsim_GCF_016746395 --directory ../../Species/Dsim_GCF_016746395/ --ref_species Dyak_GCF_016746365 --gtf_directory folder_with_saved_gtf_species_files
 ```
 
 ### Step 14: Create a 'layout' file, which is used as an instruction set to plot the karyotype in the following step
