@@ -1,6 +1,5 @@
 # MCScan_plot
 This repository provides a set of tools (.py and .sh scripts) to automate the use of MCScan with Drosophila Species.
-
 # If you are running MCScan_plot tools for first time follow the steps below, if not proceed to Step 4
 
 ### 1. MCScan tool should first be installed and also any additional packages should also be installed. Instructions can be found here for jcvi and LASTAL:
