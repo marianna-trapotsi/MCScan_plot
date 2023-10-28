@@ -49,7 +49,7 @@ nano file_species.txt
 ```
 ### 6. Run the pywrapper.py, e.g. select Dyak_GCF_016746365 as reference species
 ```
-python prepare_files.py --ref_species Dyak_GCF_016746365 --directory folder_with_saved_gtf_species_files
+python prepare_files.py --ref_species Dyak_GCF_016746365 --directory folder_with_saved_gtf_species_files/
 ```
 This script is calling the 2create_maps.py script, which reads the transcripts.gtf files and create a .bed file and a .cds file with the transcript sequences
 
