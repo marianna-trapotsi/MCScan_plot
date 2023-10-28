@@ -13,7 +13,7 @@ for file in *.bed;
             python -m jcvi.graphics.dotplot $species_ref.$species.anchors
             python -m jcvi.compara.synteny depth --histogram $species_ref.$species.anchors
             python -m jcvi.compara.synteny screen --minspan=30 --simple $species_ref.$species.anchors $species_ref.$species.anchors.new
-            python ../Tools/create_seqids_subset_chrom.py --species $species --directory ../$5/ --ref_species $species_ref --gtf_directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+            python ../Tools/create_seqids_subset_chrom.py --species $species --directory ../$5/ --ref_species $species_ref --gtf_directory folder_with_saved_gtf_species_files/
             #python ../Tools/add_color_karyotype.py --species $species --directory ../$5/ --ref_species $species_ref --ref_directory ../$5/
             python ../Tools/add_color_karyotype_blocks.py --species $species --directory ../$5/ --ref_species $species_ref --ref_directory ../$5/  
             python -m jcvi.compara.synteny mcscan $species_ref.bed $species_ref.$species.anchors --iter=1 -o $species_ref.$species.i1.blocks
