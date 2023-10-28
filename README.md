@@ -1,5 +1,5 @@
 # MCScan_plot
-This repository provides a set of tools (.py and .sh scripts) in order to automate the use of MCScan with Drosophila Species.
+This repository provides a set of tools (.py and .sh scripts) to automate the use of MCScan with Drosophila Species.
 # If you are running MCScan_plot tools for first time follow the steps below, if not proceed to Step 4
 
 ### 1. MCScan tool should first be installed and also any additional packages should also be installed. Instructions can be found here for jcvi and LASTAL:
@@ -8,13 +8,9 @@ https://github.com/tanghaibao/jcvi
 
 https://github.com/tanghaibao/jcvi/wiki/MCscan-(Python-version)#pairwise-synteny-search
 
-#### or I have saved the packages in :
+### 2. Download MCScan_plot and make the following folders:
 ```
-/mnt/nas-data/ghlab1/group_folders/marianna/software/
-```
-
-### 2. Download MCScan_plot/Tools and make the following folders:
-```
+cd MCScan_plot
 mkdir Species Ref_Species
 ```
 
@@ -31,7 +27,7 @@ MCSCan_plot/
    └── flam coordinates (.txt file)
 
 ```
-### 3. Before running any scripts you need to activate your conda environment
+### 3. Before running scripts, activate your conda environment
 #### if you do not have one, use the gene_synteny.yml to create one:
 ```
 conda env create -f gene_synteny.yml
@@ -53,7 +49,7 @@ nano file_species.txt
 ```
 ### 6. Run the pywrapper.py, e.g. select Dyak_GCF_016746365 as reference species
 ```
-python prepare_files.py --ref_species Dyak_GCF_016746365 --directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python prepare_files.py --ref_species Dyak_GCF_016746365 --directory folder_with_saved_gtf_species_files
 ```
 This script is calling the 2create_maps.py script, which reads the transcripts.gtf files and create a .bed file and a .cds file with the transcript sequences
 
