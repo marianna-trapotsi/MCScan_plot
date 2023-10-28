@@ -1,5 +1,4 @@
 # Dfic vs Dmel - Flam
-These are the instructions to generate Figure x.y 
 
 ### Step 1 Create a folder to run analysis with name 'Dmel_Dfic'  and add Dmel_dm6 in the file_species.txt
 ```
@@ -9,7 +8,7 @@ mkdir Dmel_Dfic
 ### Step 1: Prepare .bed and .cds files
 ```
 cd MCScan_plot/Tools
-python prepare_files.py --ref_species Dfic_GCF_018152265 --directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python prepare_files.py --ref_species Dfic_GCF_018152265 --directory folder_with_saved_gtf_species_files/
 ```
 
 ```
