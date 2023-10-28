@@ -27,7 +27,7 @@ MCSCan_plot/
    └── flam coordinates (.txt file)
 
 ```
-#### Note: In addition in MCScan_plot/Tools/, replace "folder_with_saved_gtf_species_files", with the folder path where you have saved .gtf files
+#### Note: In MCScan_plot/Tools/run_block_comparison.sh and MCScan_plot/Tools/run_MCScan.sh, replace "folder_with_saved_gtf_species_files", with the folder path where you have saved .gtf files
 ### 3. Before running scripts, activate your conda environment
 #### if you do not have one, use the gene_synteny.yml to create one:
 ```
