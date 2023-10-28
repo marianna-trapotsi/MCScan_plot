@@ -1,5 +1,4 @@
 # Dfic vs Dyak - flam-like1
-These are the instructions to generate Figure x.y 
 
 ### Step 1 Create a folder to run analysis with name 'Dfic_Dyak'  and add Dyak_GCF_016746365 in the file_species.txt
 ```
@@ -9,7 +8,7 @@ mkdir Dfic_Dyak
 ### Step 1: Prepare .bed and .cds files
 ```
 cd MCScan_plot/Tools
-python prepare_files.py --ref_species Dyak_GCF_016746365 --directory /mnt/scratchb/ghlab/sus/REFERENCE/drosophila/species/
+python prepare_files.py --ref_species Dyak_GCF_016746365 --directory folder_with_saved_gtf_species_files/
 ```
 
 ```
