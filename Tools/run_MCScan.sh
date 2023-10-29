@@ -4,9 +4,6 @@
 #SBATCH --time=0-00:60:00
 
 
-#module load miniconda3-4.7.12.1-gcc-9.2.0-cg3qrnj
-#source activate gene_synteny
-
 cd ../Species/$1/ 
 cp ../../Ref_Species/$2/$2.bed .
 cp ../../Ref_Species/$2/$2.cds .
